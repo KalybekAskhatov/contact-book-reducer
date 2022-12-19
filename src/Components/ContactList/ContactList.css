@@ -1,0 +1,40 @@
+.container-cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgb(214, 200, 200), transparent),
+    linear-gradient(to top left, rgb(134, 239, 134), transparent),
+    linear-gradient(to top right, rgb(110, 110, 202), transparent);
+  background-blend-mode: screen;
+  padding-bottom: 30px;
+}
+
+.card1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #0ca9ae;
+  padding: 20px;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.btn1 {
+  background-color: #398bff;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.block-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
